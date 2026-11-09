@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97.6 28" width="97.6" height="28" role="img" aria-label="Resume">
+  <rect width="97.6" height="28" fill="#1F2328" shape-rendering="crispEdges"/>
+  <g transform="translate(9 7) scale(0.875)" fill="none" stroke="#F59E0B" color="#F59E0B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.2 1.5h5.1l3 3v9.3a.7.7 0 0 1-.7.7H4.2a.7.7 0 0 1-.7-.7V2.2a.7.7 0 0 1 .7-.7z"/><path d="M9.2 1.7v3h3"/><path d="M5.9 8.6h4.2M5.9 11.2h4.2"/></g>
+  <text x="32" y="17.5" textLength="53.6" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF" text-rendering="geometricPrecision">RESUME</text>
+</svg>

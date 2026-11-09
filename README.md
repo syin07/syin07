@@ -2,14 +2,17 @@
   <img src="./assets/banner.svg" alt="Hi, I'm Sandy. Computer science at UC San Diego" width="100%" />
 </p>
 
-<br />
+<!-- TODO: the four buttons below link to "#" (nowhere) for now. Put the real links in, then delete this comment. -->
+<p align="center">
+  <a href="#"><img src="./assets/btn-website.svg" height="28" alt="Website" /></a>
+  <a href="#"><img src="./assets/btn-resume.svg" height="28" alt="Resume" /></a>
+  <a href="#"><img src="./assets/btn-linkedin.svg" height="28" alt="LinkedIn" /></a>
+  <a href="#"><img src="./assets/btn-email.svg" height="28" alt="Email" /></a>
+</p>
 
-I'm a freshman at UC San Diego studying computer science. nding things from the bottom up: I've written an autograd engine to see how backprop really works and a concurrent key-value store to see how systems stay correct under load. Right now I'm working toward how language models work on the inside.
+<img src="./assets/divider.svg" alt="" width="100%" />
 
-
-<!-- TODO: add the links you want public, then delete this comment.
-[LinkedIn](https://www.linkedin.com/in/YOUR_HANDLE) &nbsp;·&nbsp; [Blog](https://YOUR_BLOG) &nbsp;·&nbsp; [Email](mailto:YOUR_EMAIL)
--->
+I'm a freshman at UC San Diego studying computer science. I like understanding things from the bottom up: I've written an autograd engine to see how backprop really works and a concurrent key-value store to see how systems stay correct under load. Right now I'm working toward how language models work on the inside.
 
 <br />
 
@@ -56,8 +59,8 @@ I'm a freshman at UC San Diego studying computer science. nding things from the 
   <img src="https://img.shields.io/badge/Git-FFF7E6?style=flat-square&logo=git&logoColor=D97706" alt="Git" />
 </p>
 
-<br />
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 <p align="center">
-  <img src="./assets/activity.svg" alt="Contributions over the last year, one bar per week" width="100%" />
+  <img src="./assets/activity.svg" alt="Contributions over the last year, one square per day" width="100%" />
 </p>
