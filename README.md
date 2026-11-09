@@ -4,9 +4,8 @@
 
 <br />
 
-I'm a freshman at UC San Diego studying computer science. I like understanding things from the bottom up: I've written an autograd engine to see how backprop really works and a concurrent key-value store to see how systems stay correct under load. Right now I'm working toward how language models work on the inside.
+I'm a freshman at UC San Diego studying computer science. nding things from the bottom up: I've written an autograd engine to see how backprop really works and a concurrent key-value store to see how systems stay correct under load. Right now I'm working toward how language models work on the inside.
 
-**Looking for SWE and MLE internships for Summer 2027.**
 
 <!-- TODO: add the links you want public, then delete this comment.
 [LinkedIn](https://www.linkedin.com/in/YOUR_HANDLE) &nbsp;·&nbsp; [Blog](https://YOUR_BLOG) &nbsp;·&nbsp; [Email](mailto:YOUR_EMAIL)
