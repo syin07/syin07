@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="185 contributions in the last year">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="186 contributions in the last year">
   <circle cx="65.5" cy="62" r="2.5" fill="#64748B" fill-opacity="0.35"/>
   <circle cx="86.1" cy="62" r="2.5" fill="#64748B" fill-opacity="0.35"/>
   <circle cx="106.6" cy="62" r="2.5" fill="#64748B" fill-opacity="0.35"/>
@@ -51,7 +51,7 @@
   <rect x="1067.3" y="45.9" width="11" height="32.3" rx="5.5" fill="#1D4ED8" fill-opacity="0.58"/>
   <rect x="1087.9" y="16.0" width="11" height="92.0" rx="5.5" fill="#1D4ED8" fill-opacity="1.00"/>
   <circle cx="1113.9" cy="62" r="2.5" fill="#64748B" fill-opacity="0.35"/>
-  <rect x="1129.0" y="56.1" width="11" height="11.8" rx="5.5" fill="#1D4ED8" fill-opacity="0.43"/>
-  <text x="60" y="138" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#64748B">185 contributions in the last year</text>
+  <rect x="1129.0" y="54.8" width="11" height="14.4" rx="5.5" fill="#1D4ED8" fill-opacity="0.45"/>
+  <text x="60" y="138" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#64748B">186 contributions in the last year</text>
   <text x="1140" y="138" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#64748B">one bar per week</text>
 </svg>
