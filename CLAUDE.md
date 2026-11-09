@@ -8,7 +8,7 @@ This repo is my GitHub profile page. `README.md` renders at github.com/syin07.
 - `assets/activity.svg`: contribution waveform. Written daily by `.github/workflows/activity.yml` running `scripts/activity.py`. Never commit it by hand. Preview the design with `python3 scripts/activity.py --demo`, then delete the output before committing.
 
 ## Design rules
-- Light background only. One accent colour, `#1D4ED8`; text navy `#0B1F44`; secondary text `#64748B`.
+- Light background only. One accent colour, amber: `#F59E0B` for shapes (bars, cursor), `#D97706` for badge logos, and `#B45309` where the accent has to be read as small text. Body text `#1F2328` (GitHub's own), secondary text `#6B7280`, tracks `#E5E7EB`. No blue or purple.
 - The banner sits on plain `#FFFFFF` with no frame or tint, so it blends into GitHub's light page and the row of link buttons under it reads as part of the same header. Its layout is centred on the vertical midline.
 - Restrained: no typing-SVG services, trophy or stats cards, visitor counters, or rainbow badge walls.
 - Every image is a self-contained SVG in this repo (CSS animation only, no external fonts or scripts). The only third-party images allowed are the shields.io tool badges.

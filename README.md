@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Sandy Yin, computer science at UC San Diego" width="100%" />
+  <img src="./assets/banner.svg" alt="Hi, I'm Sandy. Computer science at UC San Diego" width="100%" />
 </p>
 
 <br />
@@ -47,13 +47,13 @@ I'm a freshman at UC San Diego studying computer science. nding things from the 
 ### Tools
 
 <p>
-  <img src="https://img.shields.io/badge/Python-EEF2FB?style=flat-square&logo=python&logoColor=1D4ED8" alt="Python" />
-  <img src="https://img.shields.io/badge/C%2B%2B-EEF2FB?style=flat-square&logo=cplusplus&logoColor=1D4ED8" alt="C++" />
-  <img src="https://img.shields.io/badge/TypeScript-EEF2FB?style=flat-square&logo=typescript&logoColor=1D4ED8" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Java-EEF2FB?style=flat-square&logo=openjdk&logoColor=1D4ED8" alt="Java" />
-  <img src="https://img.shields.io/badge/PyTorch-EEF2FB?style=flat-square&logo=pytorch&logoColor=1D4ED8" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/React-EEF2FB?style=flat-square&logo=react&logoColor=1D4ED8" alt="React" />
-  <img src="https://img.shields.io/badge/Git-EEF2FB?style=flat-square&logo=git&logoColor=1D4ED8" alt="Git" />
+  <img src="https://img.shields.io/badge/Python-FFF7E6?style=flat-square&logo=python&logoColor=D97706" alt="Python" />
+  <img src="https://img.shields.io/badge/C%2B%2B-FFF7E6?style=flat-square&logo=cplusplus&logoColor=D97706" alt="C++" />
+  <img src="https://img.shields.io/badge/TypeScript-FFF7E6?style=flat-square&logo=typescript&logoColor=D97706" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Java-FFF7E6?style=flat-square&logo=openjdk&logoColor=D97706" alt="Java" />
+  <img src="https://img.shields.io/badge/PyTorch-FFF7E6?style=flat-square&logo=pytorch&logoColor=D97706" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/React-FFF7E6?style=flat-square&logo=react&logoColor=D97706" alt="React" />
+  <img src="https://img.shields.io/badge/Git-FFF7E6?style=flat-square&logo=git&logoColor=D97706" alt="Git" />
 </p>
 
 <br />

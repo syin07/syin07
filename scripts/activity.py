@@ -14,8 +14,8 @@ import urllib.request
 USER = os.environ.get("GITHUB_REPOSITORY_OWNER", "syin07")
 OUT = os.path.join(os.path.dirname(__file__), "..", "assets", "activity.svg")
 
-ACCENT = "#1D4ED8"
-MUTED = "#64748B"
+ACCENT = "#F59E0B"
+MUTED = "#6B7280"
 W, H, PAD = 1200, 150, 60
 MID, MAX_BAR, BAR_W = 62, 46, 11
 
