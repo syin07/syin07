@@ -9,6 +9,7 @@ This repo is my GitHub profile page. `README.md` renders at github.com/syin07.
 
 ## Design rules
 - Light background only. One accent colour, `#1D4ED8`; text navy `#0B1F44`; secondary text `#64748B`.
+- The banner sits on plain `#FFFFFF` with no frame or tint, so it blends into GitHub's light page and the row of link buttons under it reads as part of the same header. Its layout is centred on the vertical midline.
 - Restrained: no typing-SVG services, trophy or stats cards, visitor counters, or rainbow badge walls.
 - Every image is a self-contained SVG in this repo (CSS animation only, no external fonts or scripts). The only third-party images allowed are the shields.io tool badges.
 - Animations must respect `prefers-reduced-motion` and look complete when frozen.
