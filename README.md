@@ -12,11 +12,19 @@
 
 <img src="./assets/divider.svg" alt="" width="100%" />
 
-I'm a freshman at UC San Diego studying computer science. I like understanding things from the bottom up: I've written an autograd engine to see how backprop really works and a concurrent key-value store to see how systems stay correct under load. Right now I'm working toward how language models work on the inside.
+### About Me
+---
+
+Currently pursuing a B.S. in Computer Science at UC San Diego
+
+Outside of school I try to learn as much as possible
+
+Check out my technical blogs on my website
 
 <br />
 
 ### Selected work
+---
 
 <table>
   <tr>
