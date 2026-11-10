@@ -2,12 +2,12 @@
   <img src="./assets/banner.svg" alt="Hi, I'm Sandy. Computer science at UC San Diego" width="100%" />
 </p>
 
-<!-- TODO: the four buttons below link to "#" (nowhere) for now. Put the real links in, then delete this comment. -->
+<!-- TODO: the Website and Resume buttons below link to "#" (nowhere) for now. Put the real links in, then delete this comment. -->
 <p align="center">
   <a href="#"><img src="./assets/btn-website.svg" height="28" alt="Website" /></a>
   <a href="#"><img src="./assets/btn-resume.svg" height="28" alt="Resume" /></a>
-  <a href="#"><img src="./assets/btn-linkedin.svg" height="28" alt="LinkedIn" /></a>
-  <a href="#"><img src="./assets/btn-email.svg" height="28" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/shengzhe-yin-016720321/"><img src="./assets/btn-linkedin.svg" height="28" alt="LinkedIn" /></a>
+  <a href="mailto:sandy07.yin@gmail.com"><img src="./assets/btn-email.svg" height="28" alt="Email" /></a>
 </p>
 
 <img src="./assets/divider.svg" alt="" width="100%" />
