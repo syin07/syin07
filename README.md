@@ -15,56 +15,24 @@
 ### About Me
 ---
 
-Currently pursuing a B.S. in Computer Science at UC San Diego
+I'm a computer science student at UC San Diego.
 
-Outside of school I try to learn as much as possible
+I learn by building: I'd rather write a small version of something from scratch and watch it break than only read about how it works. Outside of class that means side projects, hackathons, and writing up what I figure out along the way.
 
-Check out my technical blogs on my website
-
-<br />
-
-### Selected work
----
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <b><a href="https://github.com/syin07/sandygrad">sandygrad</a></b><br />
-      A scalar autograd engine written from scratch, inspired by Karpathy's micrograd.<br />
-      <sub><code>Python</code> <code>autodiff</code></sub>
-    </td>
-    <td width="50%" valign="top">
-      <b><a href="https://github.com/syin07/Concurrent-KV-Store">Concurrent KV Store</a></b><br />
-      A key-value store in C++ that stays correct with many threads reading and writing.<br />
-      <sub><code>C++</code> <code>concurrency</code></sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <b><a href="https://github.com/syin07/PharmaLink">PharmaLink</a></b><br />
-      Generates knowledge graphs on the fly to surface drug-repurposing candidates.<br />
-      <sub><code>TypeScript</code> <code>knowledge graphs</code></sub>
-    </td>
-    <td width="50%" valign="top">
-      <b><a href="https://github.com/syin07/notification-hub">Notification Hub</a></b><br />
-      One page for every digital notification, ranked so the important ones come first.<br />
-      <sub><code>Python</code> <code>full-stack</code></sub>
-    </td>
-  </tr>
-</table>
+The longer version, and my technical blog, is on my website.
 
 <br />
 
 ### Tools
 
 <p>
-  <img src="https://img.shields.io/badge/Python-FFF7E6?style=flat-square&logo=python&logoColor=D97706" alt="Python" />
-  <img src="https://img.shields.io/badge/C%2B%2B-FFF7E6?style=flat-square&logo=cplusplus&logoColor=D97706" alt="C++" />
-  <img src="https://img.shields.io/badge/TypeScript-FFF7E6?style=flat-square&logo=typescript&logoColor=D97706" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Java-FFF7E6?style=flat-square&logo=openjdk&logoColor=D97706" alt="Java" />
-  <img src="https://img.shields.io/badge/PyTorch-FFF7E6?style=flat-square&logo=pytorch&logoColor=D97706" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/React-FFF7E6?style=flat-square&logo=react&logoColor=D97706" alt="React" />
-  <img src="https://img.shields.io/badge/Git-FFF7E6?style=flat-square&logo=git&logoColor=D97706" alt="Git" />
+  <img src="https://img.shields.io/badge/Python-F6F8FA?style=flat-square&logo=python&logoColor=57606A" alt="Python" />
+  <img src="https://img.shields.io/badge/C%2B%2B-F6F8FA?style=flat-square&logo=cplusplus&logoColor=57606A" alt="C++" />
+  <img src="https://img.shields.io/badge/TypeScript-F6F8FA?style=flat-square&logo=typescript&logoColor=57606A" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Java-F6F8FA?style=flat-square&logo=openjdk&logoColor=57606A" alt="Java" />
+  <img src="https://img.shields.io/badge/PyTorch-F6F8FA?style=flat-square&logo=pytorch&logoColor=57606A" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/React-F6F8FA?style=flat-square&logo=react&logoColor=57606A" alt="React" />
+  <img src="https://img.shields.io/badge/Git-F6F8FA?style=flat-square&logo=git&logoColor=57606A" alt="Git" />
 </p>
 
 <img src="./assets/divider.svg" alt="" width="100%" />

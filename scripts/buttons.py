@@ -2,12 +2,13 @@
 
 GitHub strips CSS from READMEs, so each button is a small image wrapped in a link.
 They copy the geometry of shields.io's "for-the-badge" style (28px tall, square corners, bold
-uppercase Verdana, 14px logo) so they line up with shields.io tech badges used elsewhere in the README.
+uppercase Verdana, 14px logo). Colours are neutral on purpose: a light grey fill with a hairline
+border, like GitHub's own buttons, and the same greys as the shields.io tool badges in the README.
 """
 import os
 
 OUT = os.path.join(os.path.dirname(__file__), "..", "assets")
-INK, ACCENT, WHITE = "#1F2328", "#F59E0B", "#FFFFFF"
+INK, ICON, FILL, BORDER = "#1F2328", "#57606A", "#F6F8FA", "#D0D7DE"
 font = "Verdana,Geneva,DejaVu Sans,sans-serif"
 
 H, FS, SPACING = 28, 10, 1.25          # badge height, font size, letter spacing
@@ -28,30 +29,30 @@ ICONS = {
     "email": '<rect x="1.5" y="3" width="13" height="10" rx="2"/><path d="M2.2 4.6L8 9l5.8-4.4"/>',
 }
 
-# (file name, label, background, text colour, icon colour) -- one amber button, the rest dark
+# (file name, label)
 BUTTONS = [
-    ("website", "Website", ACCENT, INK, INK),
-    ("resume", "Resume", INK, WHITE, ACCENT),
-    ("linkedin", "LinkedIn", INK, WHITE, ACCENT),
-    ("email", "Email", INK, WHITE, ACCENT),
+    ("website", "Website"),
+    ("resume", "Resume"),
+    ("linkedin", "LinkedIn"),
+    ("email", "Email"),
 ]
 
 
-def render(name, label, bg, fg, icon_col):
+def render(name, label):
     caps = label.upper()
     text_w = sum(VERDANA_BOLD.get(c, 75) for c in caps) / 10 + SPACING * len(caps)
-    w = TEXT_X + text_w + PAD_R
+    w = round(TEXT_X + text_w + PAD_R)   # whole pixels, so the 1px border stays sharp
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w:g} {H}" width="{w:g}" height="{H}" role="img" aria-label="{label}">
-  <rect width="{w:g}" height="{H}" fill="{bg}" shape-rendering="crispEdges"/>
-  <g transform="translate({LOGO_X} {(H - LOGO) / 2:g}) scale({LOGO / 16})" fill="none" stroke="{icon_col}" color="{icon_col}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">{ICONS[name]}</g>
-  <text x="{TEXT_X}" y="17.5" textLength="{text_w:g}" font-family="{font}" font-size="{FS}" font-weight="bold" fill="{fg}" text-rendering="geometricPrecision">{caps}</text>
+  <rect x=".5" y=".5" width="{w - 1:g}" height="{H - 1}" fill="{FILL}" stroke="{BORDER}" shape-rendering="crispEdges"/>
+  <g transform="translate({LOGO_X} {(H - LOGO) / 2:g}) scale({LOGO / 16})" fill="none" stroke="{ICON}" color="{ICON}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">{ICONS[name]}</g>
+  <text x="{TEXT_X}" y="17.5" textLength="{text_w:g}" font-family="{font}" font-size="{FS}" font-weight="bold" fill="{INK}" text-rendering="geometricPrecision">{caps}</text>
 </svg>
 '''
 
 
 if __name__ == "__main__":
-    for name, label, bg, fg, icon_col in BUTTONS:
+    for name, label in BUTTONS:
         path = os.path.join(OUT, f"btn-{name}.svg")
         with open(path, "w", encoding="utf-8") as f:
-            f.write(render(name, label, bg, fg, icon_col))
+            f.write(render(name, label))
         print("wrote", os.path.normpath(path))
