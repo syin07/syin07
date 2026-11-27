@@ -10,14 +10,14 @@ sans = "-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Helve
 emoji = "'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif"
 mono = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
 
-# (chosen token, [(candidate, probability), ...]) -- chosen is not always the top one: it's sampling
+# (chosen token, [(candidate, probability), ...]) -- the chosen token is always the most probable candidate, listed first
 STEPS = [
     ("I", [("I", 0.62), ("We", 0.21), ("The", 0.09)]),
     ("like", [("like", 0.48), ("want", 0.31), ("need", 0.12)]),
     ("to", [("to", 0.91), ("how", 0.04), ("it", 0.02)]),
     ("know", [("know", 0.44), ("see", 0.27), ("learn", 0.19)]),
     ("how", [("how", 0.57), ("why", 0.24), ("what", 0.11)]),
-    ("models", [("things", 0.41), ("models", 0.37), ("minds", 0.13)]),
+    ("models", [("models", 0.41), ("things", 0.37), ("minds", 0.13)]),
     ("think", [("think", 0.46), ("work", 0.35), ("learn", 0.12)]),
 ]
 T, STEP, HOLD_END = 16.0, 1.5, 14.6   # loop length, seconds per token, when everything fades
